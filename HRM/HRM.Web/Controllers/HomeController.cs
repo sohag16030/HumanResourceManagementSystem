@@ -21,8 +21,12 @@ namespace HRM.Web.Controllers
         public IActionResult Details()
         {
             Employee model = _employeeRepository.GetEmployee(1);
-            ViewBag.PageTitle = "EmployeeDetails";
-            return View(model);
+            var homeDetailsViewModel = new HomeDetailsViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(1),
+                PageTitle = "EmployeeDetails"
+            };
+            return View(homeDetailsViewModel);
         }
     }
 }
