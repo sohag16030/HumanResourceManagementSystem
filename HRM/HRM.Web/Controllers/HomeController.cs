@@ -21,9 +21,8 @@ namespace HRM.Web.Controllers
         public IActionResult Details()
         {
             Employee model = _employeeRepository.GetEmployee(1);
-            ViewBag.PageTitle = "Employee Details";
-            ViewBag.Employee= model;
-            return View();
+            ViewBag.PageTitle = "EmployeeDetails";
+            return View(model);
         }
     }
 }
