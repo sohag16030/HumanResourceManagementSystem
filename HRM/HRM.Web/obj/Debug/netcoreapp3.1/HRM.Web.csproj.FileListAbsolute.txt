@@ -29,3 +29,5 @@ J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.RazorTargetAssemblyInfo.cs
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.Views.pdb
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csproj.CopyComplete
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

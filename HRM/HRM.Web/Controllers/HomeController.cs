@@ -14,9 +14,10 @@ namespace HRM.Web.Controllers
         {
             _employeeRepository = employeeRepository;
         }
-        public string Index()
+        public IActionResult Index()
         {
-           return _employeeRepository.GetEmployee(1).Name;
+            var model = _employeeRepository.GetAllEmployee();
+            return View(model);
         }
         public IActionResult Details()
         {

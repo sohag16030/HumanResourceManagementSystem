@@ -19,6 +19,12 @@ namespace HRM.Web.Models
                 new Employee() {Id = 4 , Name = "mojiry" ,Email = "mokjnry@gmail.com",Department ="HR"},
             };
         }
+
+        public IEnumerable<Employee> GetAllEmployee()
+        {
+            return _employeeList;
+        }
+
         public Employee GetEmployee(int Id)
         {
             return _employeeList.FirstOrDefault(e => e.Id == Id);
