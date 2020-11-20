@@ -40,10 +40,9 @@ namespace HRM.Web
             }
             app.UseStaticFiles();
 
-            app.UseMvcWithDefaultRoute();
-
-            app.Run(async (context) => {
-                await context.Response.WriteAsync("Hello world");
+            //app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes => {
+                routes.MapRoute("default","{Controller=Home}/{action=Index}/{id?}");
             });
         }
     }

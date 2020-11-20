@@ -19,12 +19,11 @@ namespace HRM.Web.Controllers
             var model = _employeeRepository.GetAllEmployee();
             return View(model);
         }
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
-            Employee model = _employeeRepository.GetEmployee(1);
             var homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                Employee = _employeeRepository.GetEmployee(1),
+                Employee = _employeeRepository.GetEmployee(id),
                 PageTitle = "EmployeeDetails"
             };
             return View(homeDetailsViewModel);
