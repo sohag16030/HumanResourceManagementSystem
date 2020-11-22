@@ -44,11 +44,11 @@ If you discover a security vulnerability within the project, please send an e-ma
 
 The project is available to be used freely for personal and educational purposes, cloning the project does not gives you any rights to sell it online/offline.
 
-## Requirement
+## System Requirement
 System Requirements
 The following topic describes the system requirements for Syncfusion ASP.NET Core platform.
 
-#Operating Systems
+### Operating Systems
 
 Windows 7 SP1 and later
 Windows 8.1
@@ -61,12 +61,12 @@ Mac OS X 10.11, 10.12*
 Red Hat Enterprise Linux 7
 Ubuntu 14.04, 16.04, 17
 
-#Hardware Environment
+### Hardware Environment
 Processor: x86 or x64
 RAM : 512 MB (minimum), 1 GB (recommended)
 Hard disk: up to 2 GB of available space may be required. However, 300 MB free space is required in boot drive even if you are installing in other drive.
 
-#Development Environment
+### Development Environment
 Microsoft Visual Studio 2015 Update 3 (minimum) , 2017 version latest (15.6.4), 2019.
 .NET Framework : Minimum .NET 4.5.1 upto .NET 4.7 .
 Command Line (Optional. Necessary for command line deployment)
