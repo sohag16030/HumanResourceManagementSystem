@@ -354,7 +354,6 @@ J:\HumanResourceManagementSystem\HRM\HRM.Web\bin\Debug\netcoreapp3.1\runtimes\wi
 J:\HumanResourceManagementSystem\HRM\HRM.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 J:\HumanResourceManagementSystem\HRM\HRM.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 J:\HumanResourceManagementSystem\HRM\HRM.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csprojAssemblyReference.cache
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.AssemblyInfoInputs.cache
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.AssemblyInfo.cs
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csproj.CoreCompileInputs.cache
@@ -381,3 +380,4 @@ J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csp
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.dll
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.pdb
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.genruntimeconfig.cache
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csprojAssemblyReference.cache
