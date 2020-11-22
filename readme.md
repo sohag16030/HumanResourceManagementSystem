@@ -9,6 +9,12 @@ Each module performs a separate function within the HRMS that helps with informa
 4. Team Management
 5. Asset/Resource Management 
 
+## Applies 
+     ●JSON to C# converter.
+	 ● Repository, Unit Of Work Design pattern.
+     ● DataTable with ajax, Theme Integration  AdminLTE. 
+     ● Asp.net Core, Entity Framework Core, Autofac for  Dependency Injection.
+
 ## Official Documentation of Framework
 
 Documentation for the framework can be found on the [asp.net core  website](https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-5.0&tabs=windows)
