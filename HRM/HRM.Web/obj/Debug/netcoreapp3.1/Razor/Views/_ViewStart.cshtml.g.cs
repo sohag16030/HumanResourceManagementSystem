@@ -19,8 +19,15 @@ using HRM.Web.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "J:\HumanResourceManagementSystem\HRM\HRM.Web\Views\_ViewImports.cshtml"
+using HRM.Web.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4be9c8841f908f569ddf81cc97c38f24aad17cc9", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ddc8ab43d3d7c017a02ba53520ef13b6e2c6b4bc", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

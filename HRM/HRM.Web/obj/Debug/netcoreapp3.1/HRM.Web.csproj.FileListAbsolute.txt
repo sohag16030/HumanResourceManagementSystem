@@ -381,3 +381,6 @@ J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.dll
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.pdb
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.genruntimeconfig.cache
 J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\HRM.Web.csprojAssemblyReference.cache
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
+J:\HumanResourceManagementSystem\HRM\HRM.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFound.cshtml.g.cs

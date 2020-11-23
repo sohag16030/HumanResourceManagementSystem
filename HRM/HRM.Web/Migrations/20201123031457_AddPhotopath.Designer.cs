@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HRM.Web.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20201122053612_AddPhotoPath")]
-    partial class AddPhotoPath
+    [Migration("20201123031457_AddPhotopath")]
+    partial class AddPhotopath
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,7 +39,7 @@ namespace HRM.Web.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("PhotoPat")
+                    b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

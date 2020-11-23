@@ -2,12 +2,12 @@
 
 namespace HRM.Web.Migrations
 {
-    public partial class AddPhotoPath : Migration
+    public partial class AddPhotopath : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "PhotoPat",
+                name: "PhotoPath",
                 table: "Employees",
                 type: "nvarchar(max)",
                 nullable: true);
@@ -16,7 +16,7 @@ namespace HRM.Web.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "PhotoPat",
+                name: "PhotoPath",
                 table: "Employees");
         }
     }
