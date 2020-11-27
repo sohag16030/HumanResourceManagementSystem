@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "NLog.Web.AspNetCore": "4.9.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -929,6 +930,46 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.7.2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.2.11786"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.6.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "NLog": "4.7.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.6.4.1366"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/4.9.3": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "1.6.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.9.3.1751"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/NLog.Web.AspNetCore.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -3472,6 +3513,27 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "NLog/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tfZNTOYr0TwvJNrXsJsVdZPSgIpYN1rXHnAZAadeaIbz+v18agNCCxgZXnXQqNKNizkogJ68zYTNKavyQFWwrg==",
+      "path": "nlog/4.7.2",
+      "hashPath": "nlog.4.7.2.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ESOBd/bzxFacwpWTdTXaAaItJz/0Mzibyw65YB0uQT4pf2hXtwHp2626qEiVOmaacIQbJH5wGpBLNcVpbQLpKA==",
+      "path": "nlog.extensions.logging/1.6.4",
+      "hashPath": "nlog.extensions.logging.1.6.4.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v3TiGaFXENM3/fVCFJJaien7A44EcGwceySh5rFNkp5RC3PZvsbDjEXoOeqsDz8+i5iuYQDMjTFuD2JReNdj9g==",
+      "path": "nlog.web.aspnetcore/4.9.3",
+      "hashPath": "nlog.web.aspnetcore.4.9.3.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

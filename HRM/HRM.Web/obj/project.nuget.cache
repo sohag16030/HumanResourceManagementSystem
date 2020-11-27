@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tTV3iWi8o5ISCBOFNATd9McWCRpEB/HSsfypqw0KjDOpdn2pD5Jrq1PIdIIXnx5X1PHS1PKXqpIdTHs2wV9nKg==",
+  "dgSpecHash": "KwqaN8szTn39cHorjBXJkviWSL+5DCAPvi169IkKYB98HLN2qJ/2s2IP3CCNvvYbEWLm5XXZTApf4a0TDSVX0Q==",
   "success": true,
   "projectFilePath": "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,9 @@
     "C:\\Users\\shohag\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\shohag\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\shohag\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\shohag\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\shohag\\.nuget\\packages\\nlog.extensions.logging\\1.6.4\\nlog.extensions.logging.1.6.4.nupkg.sha512",
+    "C:\\Users\\shohag\\.nuget\\packages\\nlog.web.aspnetcore\\4.9.3\\nlog.web.aspnetcore.4.9.3.nupkg.sha512",
     "C:\\Users\\shohag\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\shohag\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\shohag\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

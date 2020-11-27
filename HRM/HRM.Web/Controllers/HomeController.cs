@@ -28,7 +28,7 @@ namespace HRM.Web.Controllers
         public ViewResult Details(int? id)
         {
             throw new Exception("Error in Details View");
-            var employee = _employeeRepository.GetEmployee(id.Value);
+            Employee employee = _employeeRepository.GetEmployee(id.Value);
             if(employee == null)
             {
                 Response.StatusCode = 404;
