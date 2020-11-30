@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj": {}
+    "J:\\Projects\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj": {}
   },
   "projects": {
-    "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj": {
+    "J:\\Projects\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj",
+        "projectUniqueName": "J:\\Projects\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj",
         "projectName": "HRM.Web",
-        "projectPath": "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj",
+        "projectPath": "J:\\Projects\\HumanResourceManagementSystem\\HRM\\HRM.Web\\HRM.Web.csproj",
         "packagesPath": "C:\\Users\\shohag\\.nuget\\packages\\",
-        "outputPath": "J:\\HumanResourceManagementSystem\\HRM\\HRM.Web\\obj\\",
+        "outputPath": "J:\\Projects\\HumanResourceManagementSystem\\HRM\\HRM.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shohag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.6, )"

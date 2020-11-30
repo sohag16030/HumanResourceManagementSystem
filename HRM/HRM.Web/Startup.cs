@@ -6,6 +6,7 @@ using HRM.Web.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +30,12 @@ namespace HRM.Web
             services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(_config.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 10;
+                options.Password.RequiredUniqueChars = 3;
+            }).AddEntityFrameworkStores<AppDbContext>();
+
             services.AddMvc().AddRazorRuntimeCompilation();
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddMvc().AddXmlSerializerFormatters();
@@ -49,7 +56,7 @@ namespace HRM.Web
                 app.UseStatusCodePagesWithRedirects("/Error/{0}");
             }
             app.UseStaticFiles();
-
+            app.UseAuthentication();
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes => {
                 routes.MapRoute("default","{Controller=Home}/{action=Index}/{id?}");
